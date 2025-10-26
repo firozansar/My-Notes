@@ -1,26 +1,26 @@
 # Wood glues
 
 - [Wood glues](#markdown-mermaid)
-  - [Sources](#markdown-mermaid)
-  - [Things to look for in a glue](#markdown-mermaid)
-  - [Questions](#markdown-mermaid)
-  - [Asides](#markdown-mermaid)
-    - [Aside: Viscosity](#markdown-mermaid)
-  - [Polyurethane glue](#markdown-mermaid)
-  - [Hot Hide glue](#markdown-mermaid)
-    - [Liquid hide glue](#markdown-mermaid)
-  - [Fish glue](#markdown-mermaid)
-  - [regular wood glue?](#markdown-mermaid)
-  - [PVA Polyvinyl acetate](#markdown-mermaid)
-  - [Aliphatic glue](#markdown-mermaid)
-  - [Titebond brand](#markdown-mermaid)
-  - [Casein glue](#markdown-mermaid)
-  - [Epoxy resin](#markdown-mermaid)
-  - [Cyanoacrylate aka Superglue](#markdown-mermaid)
-  - [Silicone based](#markdown-mermaid)
-  - [Misc](#markdown-mermaid)
-  - [Double glue technique](#markdown-mermaid)
-  - [Products in NZ](#markdown-mermaid)
+    - [Sources](#markdown-mermaid)
+    - [Things to look for in a glue](#markdown-mermaid)
+    - [Questions](#markdown-mermaid)
+    - [Asides](#markdown-mermaid)
+        - [Aside: Viscosity](#markdown-mermaid)
+    - [Polyurethane glue](#markdown-mermaid)
+    - [Hot Hide glue](#markdown-mermaid)
+        - [Liquid hide glue](#markdown-mermaid)
+    - [Fish glue](#markdown-mermaid)
+    - [regular wood glue?](#markdown-mermaid)
+    - [PVA Polyvinyl acetate](#markdown-mermaid)
+    - [Aliphatic glue](#markdown-mermaid)
+    - [Titebond brand](#markdown-mermaid)
+    - [Casein glue](#markdown-mermaid)
+    - [Epoxy resin](#markdown-mermaid)
+    - [Cyanoacrylate aka Superglue](#markdown-mermaid)
+    - [Silicone based](#markdown-mermaid)
+    - [Misc](#markdown-mermaid)
+    - [Double glue technique](#markdown-mermaid)
+    - [Products in NZ](#markdown-mermaid)
 
 ## Sources
 
@@ -62,7 +62,8 @@
 1. Are there accelerators available for it?
 1. How long is the shelf life?
 1. How resistant is it to heat and humidity and cold?
-    - sometimes you want it to resist, sometimes not for repairability e.g. guitar necks
+    - sometimes you want it to resist, sometimes not for repairability e.g.
+      guitar necks
 1. What substances required to do cleanup?
     - examples
         - water
@@ -88,7 +89,8 @@
 1. Does it shrink or expand as it cures?
     - e.g. Polyurethane glues expand as they cure which can be good - make joint
       tighter
-      - > On a properly made joint, the shrinkage (of alphatic glues like Titebond) actually pulls the joint tighter.
+        - > On a properly made joint, the shrinkage (of aliphatic glues like
+          > Titebond) actually pulls the joint tighter.
 1. How does it go on materials that have high moisture content e.g. fresher
    wood?
 1. Will the joint keep moving under pressure after cure? aka does it creep
@@ -378,12 +380,15 @@ https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a
 - When cyano better than epoxy
     - less temperature sensitive
     - available in more viscosities
-    - easy to remove with acetone **after** curing (epoxy is very difficult to remove once cured)
+    - easy to remove with acetone **after** curing (epoxy is very difficult to
+      remove once cured)
     - faster cure time vs epoxy
     - epoxy doesn't work with many very common kinds of plastic (PET, PP)
 - When epoxy is better
-    - when you need gap filling (superglues are strongest with a very thin join layer)
-    - when the joint needs to be more flexible - cyanoacrylate is brittle when cured and subject to stress cracking
+    - when you need gap filling (superglues are strongest with a very thin join
+      layer)
+    - when the joint needs to be more flexible - cyanoacrylate is brittle when
+      cured and subject to stress cracking
     - cyanos have poor peel strength
     - cyanos have poor solvent resistance
     - cyanos have poor adherence to glass
@@ -396,12 +401,14 @@ https://www.titebond.com/product/glues/cf857a79-9922-49df-a160-bfe23df42c2a
 
 ## Misc
 
-- glueing end grain is not recommended but apparently can actually can be pretty strong in many cases
+- glueing end grain is not recommended but apparently can actually can be pretty
+  strong in many cases
 
 ## Double glue technique
 
 1. Apply glue to both sides of joint and let it dry
-    - this allows the glue to soak into the wood fibres (especially good for end grain)
+    - this allows the glue to soak into the wood fibres (especially good for end
+      grain)
 2. Apply a second layer of glue to one side and stick the sides together
     - The solvents in the new glue will dissolve the old glue
 
@@ -434,4 +441,5 @@ uses should dissolve the old glue.
         - Leather
         - Rubber
         - China
-        - Most plastics* - *Will not bond Polyethylene or Polypropylene plastics.
+        - Most plastics* - *Will not bond Polyethylene or Polypropylene
+          plastics.
