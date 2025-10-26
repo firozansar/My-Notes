@@ -54,13 +54,13 @@
     - incoming = apply on upload and discard original file - only store the
       transformed file QUESTIONS
 
-            what content moderation do they have?
-            can you export to social media apps easily?
-            should we demo the "image analysis" tab by being a premium customer to RNZ?
-            which cloudnary plan are we suggesting for them?
-            what cms'es do they use to present info to customers?
-            can we upload photoshop files and have them generate jpgs etc.???
-            can it automatically pull info from exif data?
+                what content moderation do they have?
+                can you export to social media apps easily?
+                should we demo the "image analysis" tab by being a premium customer to RNZ?
+                which cloudnary plan are we suggesting for them?
+                what cms'es do they use to present info to customers?
+                can we upload photoshop files and have them generate jpgs etc.???
+                can it automatically pull info from exif data?
 
 DEMO IDEAS:
 

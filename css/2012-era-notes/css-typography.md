@@ -220,6 +220,7 @@ size of the text (so that line-height, or the vertical grid, remains consistent,
 regardless of font size).
 
 the list apart article presents this as the best practice - everything except
+
 <body> uses ems for vertical measurements. body set to 100% uses default
 font-size of 16px and because it’s not specified in pixels will scale correctly
 in IE 6/7. line height specified in ems so it scales correctly. if line-height

@@ -21,8 +21,8 @@ Script tag attributes
     - The W3C rules say it is required, DC recommends you ignore them.
 - This behaviour: <script> <!--
 
-        // -->
-        </script>
+            // -->
+            </script>
 
     isn't necessary unless you need netscape 1 to read the page. It is just
     there to get around a bug in netscape 1.0.
@@ -348,7 +348,7 @@ a class
 
 4 Possible Weaknesses
 
-1.      Arrogation
+1.        Arrogation
         * Arrogation = To take or claim for oneself without right
         * Examples: global variables (javascript), public static variables (java)
         * Address generation
@@ -552,6 +552,7 @@ files
 TODO read up more on these
 
 Can force script to load asynchronously by dynamically creating a
+
 <script></script> element and inserting it into the document
 
 Event handlers are "registered" in phase 1 so that they will be called when the
@@ -613,7 +614,9 @@ and logic so is probably best
 There is no formal defn of a "program in client side JS A JS "program consists
 of _ all the JS cod in a web page (inline scripts, HTML event handlers,
 javascript: URLs) _ and all the external JS referenced with
+
 <script src=""></script> ALl those bits of code share a single global Window
+
 object they all see the same DOM they all have the same global functions and
 variables
 

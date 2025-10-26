@@ -535,30 +535,30 @@ Examples
       the role ```javascript // examples (a given policy only has one Prinipal
       block)
 
-              "Principal": {
-                  "AWS": [
-                      "arn:aws:iam::123456789012:root", // root account
-                      "123456789012", // root account (exactly same as above)
-                      "arn:aws:iam::AWS-account-ID:user/user-name-1",  // an IAM user (you can't do this cross account)
-                      "999999999999"
-                  ]
-              }
+                  "Principal": {
+                      "AWS": [
+                          "arn:aws:iam::123456789012:root", // root account
+                          "123456789012", // root account (exactly same as above)
+                          "arn:aws:iam::AWS-account-ID:user/user-name-1",  // an IAM user (you can't do this cross account)
+                          "999999999999"
+                      ]
+                  }
 
-              "Principal": { "Federated": "accounts.google.com" }
+                  "Principal": { "Federated": "accounts.google.com" }
 
 
-              "Principal": { "AWS": "arn:aws:sts::AWS-account-ID:assumed-role/role-name/role-session-name" }
+                  "Principal": { "AWS": "arn:aws:sts::AWS-account-ID:assumed-role/role-name/role-session-name" }
 
-              "Principal": {
-                  "Service": [
-                      "elasticmapreduce.amazonaws.com",
-                      "datapipeline.amazonaws.com"
-                  ]
-              }
+                  "Principal": {
+                      "Service": [
+                          "elasticmapreduce.amazonaws.com",
+                          "datapipeline.amazonaws.com"
+                      ]
+                  }
 
-              "Principal" : { "AWS" : "*" }
-              "Principal": "*" // same as above
-              ```
+                  "Principal" : { "AWS" : "*" }
+                  "Principal": "*" // same as above
+                  ```
 
 Gotcha: `arn:aws:iam::444455556666:root` in a principal doesn't just refer to
 the root account - it refers to all principals in that account

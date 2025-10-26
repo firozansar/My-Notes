@@ -95,6 +95,7 @@ do_things_to_max();
       definition for you.
         - extern variables are compiled without the variable being resolved - it
           is resolved by the linking process.
+
     ```c
     extern int foo2; // alwasy a declaration (no memory allocated
     int foo3 = 12; // always a definition (memory is allocated)

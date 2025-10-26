@@ -10,7 +10,7 @@ not raw devices as filesystems are good these days
 
 - Reading from buffers vs reading from disk can be up to 1000x faster!
 
-data/pgx_log _ write ahead log _ sync to disk on crash
+data/pgx*log * write ahead log \_ sync to disk on crash
 
 - `data/base/`
     - where the "data base" is stored

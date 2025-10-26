@@ -82,7 +82,7 @@ declarations ruleset = one or more rules
 A CSS property has different values depending on where in the computation
 process it is
 
-1.      Specified Value
+1.        Specified Value
         set in 3 ways:
         	1.	If a stylesheet sets a value for this property
         	2.	If no stylesheet mentions it, it is inherited from the parent element (if possible)
@@ -234,8 +234,8 @@ the look of web sites and/or apps using pure CSS, which is a great advantage and
 time-saver.
 
 1. If possible, give every page's body a unique class:
-   <body class='contactpage'> this makes it very easy to add page-specific
-   tweaks to the style sheet:
+ <body class='contactpage'> this makes it very easy to add page-specific
+ tweaks to the style sheet:
 2. body.contactpage div.container ul.mainmenu li { color: green }
 3. When building menus automatically, add as much CSS context as possible to
    allow extensive styling later. For example:

@@ -40,5 +40,5 @@ Options
     - -- is immature
     - uses guardian and guardian_db, comeonin, bamboo
 
-guardian + ueberauth + ueberauth_identity = an auth solution _ but is missing
-confirmable, invitable users _ also missing user management of their own stuff
+guardian + ueberauth + ueberauth*identity = an auth solution * but is missing
+confirmable, invitable users \_ also missing user management of their own stuff

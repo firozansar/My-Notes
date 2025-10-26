@@ -69,7 +69,7 @@ Deutshe Nomenschuss(sp?) Typeface Classification (10 types):
 1.  Graphic Gothic, blackletter, textural
 2.  Humanist 15th century manuscripts
 3.  Garalde Based on handwriting in italy
-4.      Transitional
+4.        Transitional
     Lighter than garalde
 5.  Didone
 6.  Slab Serif Egyptian
@@ -152,9 +152,9 @@ Leading
 Color theory has three areas of study
 
 1.  Scientific This intersects with web accessibility
-2.      Artistic
+2.        Artistic
     Boulton deals mostly with this
-3.      Pcychological
+3.        Pcychological
 
 Additive Primary Colors (Hues):
 

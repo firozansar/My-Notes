@@ -9,6 +9,7 @@
     ```
 - `undefined` is used to represent some sort of error state - it is not
   something to expect as return value etc.
+
     ```
     :t undefined
     undefined ::

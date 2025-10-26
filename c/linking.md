@@ -29,7 +29,7 @@ $ ldd `which ls`
   in the execution of arbitrary code.
 - A safer alternative when dealing with untrusted executables is:
 
-             $ objdump -p /path/to/program | grep NEEDED
+                 $ objdump -p /path/to/program | grep NEEDED
 
 - Note, however, that this alternative shows only the direct dependencies of the
   executable, while ldd shows the entire dependency tree of the executable

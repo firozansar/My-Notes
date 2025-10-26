@@ -1,4 +1,3 @@
-
 Introspecting the sqlite version of the Temporal DB
 
 - 45 tables
@@ -11,24 +10,29 @@ A very common set of identifiers for a row is
 3. workflow ID
 4. run ID
 
-Makes heavy use of [Proto3](https://protobuf.dev/programming-guides/proto3/) protobuf encoding. A lot of tables have the tuple `(data, data_encoding)` where `data_encoding` is always "Proto3".
-=> not super easy to introspect the contents of some tables
+Makes heavy use of [Proto3](https://protobuf.dev/programming-guides/proto3/)
+protobuf encoding. A lot of tables have the tuple `(data, data_encoding)` where
+`data_encoding` is always "Proto3". => not super easy to introspect the contents
+of some tables
 
 There are 2 namespaces by default:
 
 1. `default`
 2. `temporal-system`
 
-so temporal uses temporal tasks to manage stuff? does it run on workers too? or does the temporal server include a worker?
+so temporal uses temporal tasks to manage stuff? does it run on workers too? or
+does the temporal server include a worker?
 
-the history of the server is stored as a tree.
-one table of node details and another table of the "tree" that holds the relationship between the nodes
-I guess this is because workflows can spawn workflows?
+the history of the server is stored as a tree. one table of node details and
+another table of the "tree" that holds the relationship between the nodes I
+guess this is because workflows can spawn workflows?
 
-A bunch of tables seem to exist to allow searching of the workflows via TemporalUI and tctl - the `executions_visibility` table seems to be the main one that corresponds to the Temporal UI view
+A bunch of tables seem to exist to allow searching of the workflows via
+TemporalUI and tctl - the `executions_visibility` table seems to be the main one
+that corresponds to the Temporal UI view
 
-It uses the FTS5 extension which presumably manages a bunch of those tables under the hood to implement the fts
-This also explains the 3 triggers
+It uses the FTS5 extension which presumably manages a bunch of those tables
+under the hood to implement the fts This also explains the 3 triggers
 
 ```sql
 -- from schema.sql

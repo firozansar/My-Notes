@@ -417,6 +417,7 @@ There are 2 ways to refernce a function from another namespace - we can pass
 more args to `ns` to import other things
 
 1. `:use` keyword
+
     ```clj
     (ns foo (:use otherspace))
     ```
@@ -424,10 +425,12 @@ more args to `ns` to import other things
     - all "Vars" in otherspace become available in foo
     - -- if namespaces register the same function name and we import both we
       will get an error
+
     ```clj
     ;; only import the named functions from otherspace
     (ns foo (:use [otherspace :only [func1 func2]]))
     ```
+
 2. `:require` keyword
 
     ```clj

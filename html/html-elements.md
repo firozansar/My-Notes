@@ -137,10 +137,10 @@ The 4 sectioning elements are:
 - figcaption
     - The figcaption element represents a caption or legend for the rest of the
       contents of the figcaption element's parent figure element, if any. The
-      <figcaption> element is optional and can appear before or after the
-      content within the <figure>. Only one <figcaption> element may be nested
-      within a <figure>, although the <figure> element itself may contain
-      multiple other child elements (e.g., <img> or <code>).
+          <figcaption> element is optional and can appear before or after the
+          content within the <figure>. Only one <figcaption> element may be nested
+          within a <figure>, although the <figure> element itself may contain
+          multiple other child elements (e.g., <img> or <code>).
     - You should choose between <aside> or <figure> by asking yourself if the
       content is essential to understanding the section:
     - If the content is simply related and not essential, use <aside>.

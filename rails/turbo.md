@@ -83,6 +83,7 @@ element or any parent re-enable with data-turbo="true" if necessary in your
 heirarchy
 
 Force a specific page to always trigger a full reload
+
 <meta name="turbo-visit-control" content="reload">
 
 Where should I attach events?

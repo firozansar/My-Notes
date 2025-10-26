@@ -703,6 +703,7 @@ There are three kinds of exception in Erlang
 1. errors
     - are a way for a function to stop its execution if it has no way to
       reliably continue
+
     ```erlang
     erlang:error(no_api_available).
     ```
@@ -721,6 +722,7 @@ There are three kinds of exception in Erlang
             - case_clause
             - function_clause
         - you will probably never generate an error with a built-in reason
+
 1. exits
     - two kinds
         1. internal

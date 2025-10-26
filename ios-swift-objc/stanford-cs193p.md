@@ -836,6 +836,7 @@ dictionary of attributes for _each character_.
     - You cannot send it "string" messages.
     - it has the `string` method which will give back a string representation of
       itself
+
     ```
     NSAttributedString *str = ...
     NSString substr = ...
@@ -845,6 +846,7 @@ dictionary of attributes for _each character_.
 
     - the string you get back is high performance but volatile
     - If you want to keep this string around make a copy of it
+
 - It is immutable
 - Usage:
     ```objc
@@ -969,15 +971,18 @@ Lifecycle of a ViewController
 1. You are _about to_ go off-screen
 1. `- (void)viewWillDisappear:(BOOL)animated` is called
     - Things you should do here:
+
     ```objc
     [super viewWillDisappear]; // let the superclass method have a go
     ```
 
     - Things you can do here:
+
     ```objc
     [self rememberScrollPosition];
     [self saveToPermenantStorage]; // <-- if time consuming, do in a thread
     ```
+
 1. `- (void)viewDidDisappear:(BOOL)animated` is called
 
 Alwasy let the inherited version of a lifecycle method have a chance to run

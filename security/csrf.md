@@ -14,6 +14,7 @@
         - make the form look like some other form or make it submit
           automatically `<body onload="document.forms[0].submit()">`
     - PUT/PATCH/DELETE etc.
+
         ```
         <script>
         function put() {

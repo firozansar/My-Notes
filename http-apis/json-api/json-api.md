@@ -98,6 +98,7 @@ Both clients and servers must use the official media type to exchange data
 
 - Resource identifier object
     - a JSON object that functions as a pointer to an object with data e.g.
+
     ```json
     {
         "data": {

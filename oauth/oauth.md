@@ -313,6 +313,7 @@ The flow
     - the authoriztion server MUST NOT issue a refresh token (because client
       cannot be trusted to store it)
     - example:
+
     ```
     HTTP/1.1 302 Found
     Location: http://example.com/cb#access_token=2YotnFZFEjr1zCsicMWpAA
@@ -321,10 +322,12 @@ The flow
 
     - An error is returned if something goes wrong - see section 4.2.2.1 for
       details
+
     ```
     HTTP/1.1 302 Found
     Location: https://client.example.com/cb#error=access_denied&state=xyz
     ```
+
 1. The client makes a request to the `Location` HTTP header it got from the
    previous step
 1. This loads a new HTML document with both the access_token and JS that can
@@ -431,7 +434,7 @@ The flow
 
 1.  server authenticates the client and if valid replies with access token(s) _
     params (encoded as `application/x-www-form-encoded` in GET request body) _
-    grant_type=client_credentials (required) _ scope (optional) _ client must
+    grant*type=client_credentials (required) * scope (optional) \_ client must
     send some sort of authentication HTTP headers ``` HTTP/1.1 200 OK
     Content-Type: application/json;charset=UTF-8 Cache-Control: no-store Pragma:
     no-cache

@@ -367,6 +367,6 @@ What causes content problems
 
 1.  We treat content like a commodotiy
 2.  We don't have time to make a plan
-3.      We make deadly assumptions
+3.        We make deadly assumptions
 4.  Content is political
 5.  It's all too much, we'll never move forward

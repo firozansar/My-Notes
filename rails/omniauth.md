@@ -34,9 +34,9 @@ Singleton _ create instances via Klass.instance not Klass.new _ ensures that
 only one instance is ever created (all calls to Klass.instance return the smae
 method
 
-Module#autoload(:str_or_sym, "filepath") tells ruby to `require "filepath"` the
-first time :str_or_sym is accessed by any ruby code _ it delays requiring the
-code until it is used _ why bother? \* it lets your app boot faster because the
+Module#autoload(:str*or_sym, "filepath") tells ruby to `require "filepath"` the
+first time :str_or_sym is accessed by any ruby code * it delays requiring the
+code until it is used \_ why bother? \* it lets your app boot faster because the
 activitiy of requring the file is delayed
 
 module_function

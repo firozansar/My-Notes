@@ -125,9 +125,9 @@ Integer("33") # converts "33" to 33
 
 #
 
-def my_func(i_am_a_parameter) # a parameter is any declaration within the
+def my*func(i_am_a_parameter) # a parameter is any declaration within the
 parentheses in a function definition # do stuff puts "Parameter is a variable in
-the _definition_ of the function" puts "Argument is the actual value of the
+the \_definition* of the function" puts "Argument is the actual value of the
 variable that gets passed to the function" puts "arguments are passed as
 parameters" puts "#{i_am_a_parameter}" end
 

@@ -112,22 +112,22 @@ they have absorbed our message? invite somebody to take a **directed** step
 - Page tables are crucial to the continual growth and maintenance of a truly
   _content-led_ site. Whatif site is not content-led? A page table contains:
 
-        * Page objective
-        * Source Content
-        * Scope ???
-        * Title
-        * Messages (what things (probably plural) is this page trying to get across, what user objectives are we trying to satisfy, what business objectives are we trying to satisfy)
-        	* Priority Content
-        	* Secondary Content
-        	* Tertiary Content
-        * Methods (what methods are we boing to use to get the message across). e.g. written covering X, Y, Z.
-        * Calls to action (what actons do we ant them to take)
-        * Who is responisble for creation
-        * Who is responsible for maintenance, how often reviewed
-        * Technology/publishing/policy implications
-        	* e.g. do they want a complex google maps implementation & is that ready?
-        * Reliance on third parties
-        * Outstanding questions
+            * Page objective
+            * Source Content
+            * Scope ???
+            * Title
+            * Messages (what things (probably plural) is this page trying to get across, what user objectives are we trying to satisfy, what business objectives are we trying to satisfy)
+            	* Priority Content
+            	* Secondary Content
+            	* Tertiary Content
+            * Methods (what methods are we boing to use to get the message across). e.g. written covering X, Y, Z.
+            * Calls to action (what actons do we ant them to take)
+            * Who is responisble for creation
+            * Who is responsible for maintenance, how often reviewed
+            * Technology/publishing/policy implications
+            	* e.g. do they want a complex google maps implementation & is that ready?
+            * Reliance on third parties
+            * Outstanding questions
 
 The page table allows the client to hire a writer when/if it is required.
 

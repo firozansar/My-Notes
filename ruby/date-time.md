@@ -44,6 +44,7 @@
     - only supports UTC and whatever the system time zone is
     - can only represent dates between 1823 and 2116
     - stores integer representing the no. of seconds since the epoch
+
     ```
     require 'time'
     Time.now
@@ -54,6 +55,7 @@
 
     - ActiveSupport decorates it
         - http://api.rubyonrails.org/classes/Time.html
+
 - Date
     - ActiveSupport decorates it
         - http://api.rubyonrails.org/classes/Date.html
@@ -67,6 +69,7 @@
     - designed as a replacement for `Time`
     - a superset of ruby `Time`
     - provides many helpers
+
     ```
     1.day.ago
     2.weeks.from_now
@@ -76,6 +79,7 @@
     - A Time-like class that can represent a time in any time zone. Necessary
       because standard Ruby Time instances are limited to UTC and the system's
       ENV['TZ'] zone.
+
 - TimeZone
     - The TimeZone class serves as a wrapper around TZInfo::Timezone instances
 

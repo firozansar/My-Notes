@@ -93,15 +93,15 @@ http://www.impressivewebs.com/inherit-value-css/
 
 Properties that inherit:
 
-1.          color
-2.          font- (and related properties)
-3.          letter-spacing
-4.          line-height
-5.          list-style (and related properties)
-6.          text-align
-7.          text-indent
-8.          text-transform
-9.          visibility
+1.            color
+2.            font- (and related properties)
+3.            letter-spacing
+4.            line-height
+5.            list-style (and related properties)
+6.            text-align
+7.            text-indent
+8.            text-transform
+9.            visibility
 10.         white-space
 11.         word-spacing
     Properties that don't inherit:

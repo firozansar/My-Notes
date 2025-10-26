@@ -400,6 +400,7 @@ initializers:
 6. Wrap parameters
     - if true, tells `params` to wrap the HTML FORM params it got in a hash
     - keyed based on the controller name e.g.
+
     ```
     # in NamesController
     { "name": "Eoin kelly" }
@@ -412,6 +413,7 @@ initializers:
         - FoosController -> "foo"
         - ArticlesController -> "article"
     - by default it is only enabled for JSON ???
+
 7. Assets
     - You can add extra files to be precompiled by the asset-pipeline.
     - You can change the version of your assets

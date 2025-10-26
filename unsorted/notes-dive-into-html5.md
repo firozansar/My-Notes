@@ -5,4 +5,5 @@ tag or attribute)
 hgroup for when a <hX> element does not represent a new section e.g. a tagline
 
 the document outline can get messed up if you use h1-h6 outside of and inside of
+
 <article> etc. so it's best not to mix them.

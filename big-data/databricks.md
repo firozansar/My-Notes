@@ -373,7 +373,7 @@ the worker(s) ?? when does the driver have a lot of heavy compute?
 - Graviton instances - only partially supported -
   https://docs.databricks.com/en/compute/configure.html#graviton-limitations
     > [!WARN] Delta Live Tables is not supported on Graviton-enabled compute.
-        Why?
+            Why?
 
 Compute consists of one driver node and zero or more worker nodes. You can pick
 separate cloud provider instance types for the driver and worker nodes, although

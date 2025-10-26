@@ -30,11 +30,11 @@ much extra security does a moved WP_CONTENT give you?
 - Update plugins and core Do we do it or them? prob them on low plans, us on
   higher plans
 
-        steps:
-        	take a db backup
-        	take a file backup
-        	update plugins and core
-        30 mins minimum
+            steps:
+            	take a db backup
+            	take a file backup
+            	update plugins and core
+            30 mins minimum
 
 - Get database backups emailed every X can these be verified? gunzip, check can
   these be scanned for spamword, malware? need 30 mins to investigate what's
@@ -256,8 +256,8 @@ unfiltered_html capability kses is an expensive function - run it on save, not
 on output!
 
 $wpdb->{functions} are the best safe way to deal with the db use
-$wpdb->prepare() i fyou need a query that can't be done with the ->insert() etc.
-functions
+$wpdb->prepare()
+i fyou need a query that can't be done with the ->insert() etc. functions
 
 principles of good dev 1. escape late There is not such thing as a "general
 escape" - there is only escaping in a particular context. 2. Anything that isn't

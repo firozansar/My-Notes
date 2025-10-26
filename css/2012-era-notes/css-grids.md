@@ -63,10 +63,9 @@ grid elements should not have other styles applied to them
   have to know about the box it is being put in) ? what do you do when the area
   covered by a grid div needs styling?
     1. add another div inside/outside with styling?
-
-
         - extra markup
-        - results in the grid containers not just touching other grid containers - is this difficult to understand?
+        - results in the grid containers not just touching other grid
+          containers - is this difficult to understand?
 
     2. apply the styling to the grid div
 

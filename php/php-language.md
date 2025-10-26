@@ -569,6 +569,7 @@ require __DIR__.'path/to/file.php`
 ## Strings and encoding
 
 - Your `php.ini` should have set
+
     ```php
     default_charset = "utf-8";
     ```

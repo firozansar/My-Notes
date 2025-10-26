@@ -198,6 +198,7 @@ show lc_collate;
 
 - B-tree indexes store their entries in _ascending_ order.
 - NULLs are also stored in the index - they are put last in the table
+
     ```sql
     CREATE INDEX i ON t(v DESC NULLS FIRST);
     ```

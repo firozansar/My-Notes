@@ -19,8 +19,8 @@ State Tree
 
 The core of the Salt State system is the SLS, or SaLt State file
 
-$ salt {MINION_TARGETS} {EXECUTION_MODULE}.{FUNCTION} $ salt '_' test.ping # run
+$ salt {MINION*TARGETS} {EXECUTION_MODULE}.{FUNCTION} $ salt '*' test.ping # run
 the ping function in the test module on all minions $ salt '_' sys.doc # show
-function docs $ salt '_' disk.usage # show disk usage $ salt '_' pkg.install
+function docs $ salt '_' disk.usage # show disk usage $ salt '\_' pkg.install
 vim # install vim on all minions using appropriate pkg manager $ salt '\*'
 cmd.run 'ls -al /boot' # shell out to a command on all minions

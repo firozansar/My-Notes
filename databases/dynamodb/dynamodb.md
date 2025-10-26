@@ -37,7 +37,7 @@ Author says that RDBMS created in world where storage very expensive to compute
   de-normalise and create as reports but that now it has flipped and storage is
   much cheaper than compute.
 
-        That seems to ignore the added complexity of storing duplicate data?
+            That seems to ignore the added complexity of storing duplicate data?
 
 Author seems to equate NoSQL with DynamoDB
 

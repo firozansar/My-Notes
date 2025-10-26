@@ -154,7 +154,7 @@ jQuery.fn is an alias to jQuery.prototype
 - any properties and methods on jQuery.fn is available to any jquery object
   jQuery.fn.eoinsPlugin
 
-        more at http://stackoverflow.com/questions/4083351/what-does-jquery-fn-mean
+            more at http://stackoverflow.com/questions/4083351/what-does-jquery-fn-mean
 
 fn object, which is a special jQuery construct made for authoring plugins.
 
@@ -184,7 +184,8 @@ the power of the jQuery selectors (for DOM’s elements) we would extend the
 jQuery.fn object.
 
 // It seems that by attaching the new variable to the $.fn object (rather than
-$) // we get the 'this' set to the jquery object that the selector got us
+$)
+// we get the 'this' set to the jquery object that the selector got us
 
 # jQuery Plugins
 
@@ -196,13 +197,15 @@ $.fn.newMethod = function () {
 // This allows our newMethod to be chained return this; }
 
 http://www.learningjquery.com/2007/10/a-plugin-development-pattern a way of
-handling options ===================== // plugin definition $.fn.hilight =
+handling options ===================== // plugin definition
+$.fn.hilight =
 function(options) {   // Extend our default options with those provided.   //
 Note that the first arg to extend is an empty object -   // this is to keep from
 overriding our "defaults" object.   var opts = $.extend({},
-$.fn.hilight.defaults, options);   // Our plugin implementation code goes here.
-}; // plugin defaults - added as a property on our plugin function
-$.fn.hilight.defaults = {   foreground: 'red',   background: 'yellow' };
+$.fn.hilight.defaults,
+options);   // Our plugin implementation code goes here. }; // plugin defaults -
+added as a property on our plugin function $.fn.hilight.defaults = {  
+foreground: 'red',   background: 'yellow' };
 
     // this need only be called once and does not
     // have to be called from within a 'ready' block
@@ -282,8 +285,9 @@ var $dialog; // $ prefix indicates it will be a jQuery object, gets initialized
 to undefined (which is falsy)
 
 $("#contactUs").on("click", function () { if (! dialog) { $dialog =
-$("contact").dialog(); // dialog() auto opens by default so we don't have to
-explicitly call open } else { $dialog.dialog('open'); } });
+$("contact").dialog();
+// dialog() auto opens by default so we don't have to explicitly call open }
+else { $dialog.dialog('open'); } });
 
 ## jQuery one()
 
@@ -300,8 +304,9 @@ $('#contact-us').one('click', function () { $dialog = $('contact')
   in a variable which the Variable Flag method does) \*/
   $(document).on('mouseenter', '.slideshow', function () { var $el = $(this); //
   jQuery sets this = to the DOM element the event was triggered on if (!
-  $el.hasClass('is-ready')) { // do stuff $el.addClass('is-ready'); // add the
-  class which will function as a flag for us } } );
+  $el.hasClass('is-ready'))
+  { // do stuff $el.addClass('is-ready'); // add the class which will function
+  as a flag for us } } );
 
 ## Class Name + Delegation
 

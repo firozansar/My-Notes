@@ -163,6 +163,7 @@ Notes on implementations
     - ++ pretty simple implementation in browser and on server
     - message has `Content-Type: text/event-stream`
     - message bodies are plain text.
+
     ```
     id: 12345\n
     data: Stuff\n

@@ -340,9 +340,9 @@ Number Methods
 - toPrecision
 - toString
 
-33.toString(); // Doesnt work as parser thinks it's a decimal point
-(33).toString(); // works 33 .toString(); // works 33..toString(); // works
-33['toString'](); // works
+    33.toString(); // Doesnt work as parser thinks it's a decimal point
+    (33).toString(); // works 33 .toString(); // works 33..toString(); // works
+    33['toString'](); // works
 
 All numbers inherit from Number.prototype so you can augment all numbers if you
 want Numbers are first-class objects
@@ -1482,7 +1482,8 @@ function
   Passing in an object, however, passes it in by reference.
 
 in JS is there a perf advantage to passing multiple primitve values rather than
-one object function myfun1({ var1: 1, var2: 2}){} vs function myfun1($var1,
+one object function myfun1({ var1: 1, var2: 2}){} vs function
+myfun1($var1,
 $var2);
 
 - it is easier to understand the code if we pass named parameters

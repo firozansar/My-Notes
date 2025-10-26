@@ -8,6 +8,7 @@ only keyword is optional
 10 media-types: all, braille, embossed, handheld, print, projection, screen,
 speech, tty, tv they can also be used in: @import url("blah.css") screen and
 (min-width: 100px);
+
 <link rel="stylesheet" href="blah.css" media="{media-query}" />
 
 Display Area = the browsers viewport (sans chrome etc.)

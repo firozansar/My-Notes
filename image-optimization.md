@@ -105,6 +105,7 @@ I prefer to explicitly link to it in HTML
 
 You can prevent the addition of all effects by naming your icon
 apple-touch-icon-precomposed.png (this is available in iOS 2 and later).
+
 <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
 <!-- no effects added -->
 

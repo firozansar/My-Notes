@@ -40,16 +40,28 @@ at a time
 
 Given
 
-$$ w*{n} = \textrm{square matrix of weights for layer n} $$
-$$ a*{n-1} =
-\textrm{single column vector of activations from layer n-1} $$
-$$ b*{n} =
-\textrm{single column vector of biases for layer n} $$
-$$ a*{n} = \textrm{single
-column vector of activations for layer n} $$
-$$ relu() = \textrm{squish
+$$ w\*{n} = \textrm{square matrix of weights for layer n} $$
+
+$$
+a*{n-1} =
+\textrm{single column vector of activations from layer n-1}
+$$
+
+$$
+b*{n} =
+\textrm{single column vector of biases for layer n}
+$$
+
+$$
+a*{n} = \textrm{single
+column vector of activations for layer n}
+$$
+
+$$
+relu() = \textrm{squish
 function - shown here implies that you apply it to every value in a single
-column matrix} $$
+column matrix}
+$$
 
 Then the activations for the whole of layer $n$ are calculated in a single
 operation by:

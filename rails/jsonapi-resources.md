@@ -24,6 +24,7 @@ jsonapi_resources :contacts
 - attributes can come from @model properties or methods in the resource
 - resource is a kind of decorater object for the model
 - Available attributes must be declared
+
     ```ruby
 
     ```

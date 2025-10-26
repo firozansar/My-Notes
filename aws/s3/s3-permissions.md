@@ -133,6 +133,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html#amazons3-act
 - The S3 service has (conceptually) a single endpoint per region where you send
   requests to. For example, s3 in the Sydney region can use any of the following
   (they are conceptually aliases of each other):
+
     ```
     3.ap-southeast-2.amazonaws.com
     s3.dualstack.ap-southeast-2.amazonaws.com
@@ -141,6 +142,7 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html#amazons3-act
     ```
 
     - Aside: Dual stack endpoints support both IPv6 and IPv4
+
 - Requests to S3 are either
     1. Authenticated
         - The request includes a signature (computed, in part, from the user's

@@ -54,12 +54,14 @@ There are a few variations of exit signal:
     ```
 
 1. exit indicating an error
+
     ```elixir
     exit(:some_reason) # from current process
     Process.exit(pid, :some_reason) # from another process
     ```
 
     - Can be converted into a message by setting a flag in the process
+
 1. exit signal which cannot be converted into a message (untrappable exit)
     ```elixir
     # The method is the same from the current process and another process

@@ -38,7 +38,7 @@ Pataka embedded crops are a c_crop followed by a c_scale
 
 ## What happens if a c_crop is applied twice in a URL?
 
-Each c_crop works on the _output_ of the previous transformation - they form a
+Each c*crop works on the \_output* of the previous transformation - they form a
 pipeline. It is not the case that "last crop wins".
 
 ```bash

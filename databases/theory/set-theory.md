@@ -43,6 +43,7 @@ Ways of specificing a set:
     - only works if set is finite
     - only practical if set is small
 2. Predicate (the defining characteristic of elements in the set)
+
     ```
     # these sets are the same
     { x : x is a prime less than 10 }
@@ -50,7 +51,9 @@ Ways of specificing a set:
     ```
 
     - A predicate is a bit like a "logic test"
+
 3. Substitution
+
     ```
     { x : x^2 is integer less than 100 }
     ```

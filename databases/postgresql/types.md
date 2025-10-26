@@ -39,7 +39,7 @@ Numeric type
     - ++ calculations are precise
     - -- calculations are slow
 
-            QUESTION: how do i use the numeric type?
+                QUESTION: how do i use the numeric type?
 
 ### serial types
 
@@ -72,7 +72,7 @@ Numeric type
 - allows storing of arbitrary binary strings (including null bytes and other
   sequences not allowed by the DB character sets)
 
-          Q: Why no BLOB type?
+              Q: Why no BLOB type?
 
 The SQL standard defines a different binary string type, called BLOB or BINARY
 LARGE OBJECT.
