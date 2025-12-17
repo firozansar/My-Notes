@@ -11,19 +11,29 @@
 
 ## Gibson ES-335
 
-- 1958
-    - first released
-- 16" at widest
-- 3 ply laminate at first then moved to 4 ply for
-- center block of maple
-- mahogany top and bottom blocks
-- single piece neck with mahogany wings on
-- neck joined at 19th fret
-- 24.75" scale length
-- paf humbuckers
-- control knobs same as SG
-- output jack on front of guitar
+- sources
+    - https://www.youtube.com/watch?v=E2Uloy60swY
+- ES = Electro Spanish
+- 1958 first released 1958
+- specs
+    - double cutaway shape
+    - called "semi-hollow" today but also "semi-solid"
+    - 16" at widest
+    - 3 ply laminate at first:  maple -> popular -> maple but moved to 4 ply by end of 1958
+    - 4" center block of maple
+    - mahogany top and bottom blocks
+    - single piece neck with mahogany wings on
+    - neck joined at 19th fret
+    - 24.75" scale length
+    - PAF humbuckers
+    - plastic nut
+    - Tuneomatic ABR1 bridge
+    - control knobs same as SG
+    - output jack on front of guitar
+    - dots on fingerboard (345 and 355 had the fancier stuff)
 - 1959 had some improvements which make that year the most desirable
+    - fret size increased
+    - neck profile increased
 - Variants
     - ES-345
         - stereo output
@@ -32,11 +42,10 @@
         - double parallelogram fret board inlays
     - ES-355
         - upscaled hardware and features
-    - ES-330
-        - Fully hollow
-        - Has both single and two pickup versions
-        - Neck joins at 17th fret
-        - Trapeze tail piece
+        - pearl block inlays
+        - ebony fingerboard
+        - shipped with a bigsby
+        - split diamond headstock
     - ES-347
         - brass hardware
         - coil tap switching
@@ -44,7 +53,7 @@
         - Dot markers
     - ES-335 Studio
         - many features in common with the BB King signature
-        - no f-holes
+        - no f-holes to reduce feedback
     - ES-335 Dot
         - Re-issue of the classic 1959 dot guitars
     - ES-336
@@ -57,8 +66,6 @@
         - Gibson Memphis
     - ES-359
         - a scaled down 355 (same construction as 355)
-    - ES-390
-        - scaled down fully hollow 330
     - ES-349
         - scaled down 345
     - Signatures
@@ -101,12 +108,37 @@
 - 1969 Gibson merged with Norlin Industries
     - guitars made in the 70's are on average lesser quality
 
+Full hollow body guitars
+
+- ES-330
+    - Fully hollow
+    - Has both single and two pickup versions
+    - Neck joins at 17th fret
+    - Trapeze tail piece
+    - P90 pickup(s) (1 or 2)
+- ES-390
+    - scaled down fully hollow 330
+
+## Epiphone semi-hollows
+
+- Riviera
+- Broadway
+- Swingster
+- Sheraton
+    - Semi-hollow
+    - 2 x Humbuckers
+    - fairly fancy appointments
+    - an alternative to the 335
+- Casino
+    - Fully hollow body (more acoustic resonance, more feedback, lighter vs hollow-body)
+    - 2 x P90 pickups, 3 way selector
+
 # What do I want
 
 ```
 cherry = the traditional colour
-bigsby = yes
-16" too big?
+Bigsby = yes
+16" too big? i might prefer 336 or 339 size
 355 in cherry with gold hardware and bigsby looks cool af.
 ```
 

@@ -10,4 +10,4 @@ Sources
 - https://guitarpartsandmore.com
 - https://elevatelutherie.com
 
-For acousitic guitar, the top should always be a solid piece for best tone
+For acoustic guitar, the top should always be a solid piece for best tone
